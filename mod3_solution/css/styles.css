@@ -60,18 +60,31 @@ div .navbar-brand h1{
   font-weight: bold;
 }
 
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+
+button.navbar-toggler {
+  visibility: hidden;
+}
 
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
+button.navbar-toggler {
+  visibility: hidden;
+}
+
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+
+button.navbar-toggler {
+  visibility: hidden;
+}
 
 }
 
